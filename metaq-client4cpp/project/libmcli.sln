@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lwpr", "..\ext\lwpr\project\lwpr.vcproj", "{21DEF436-4BBC-4ABE-8910-B634593FF08F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmcli", "libmcli.vcproj", "{DB42E07F-51C7-458A-9580-561455DC529F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "logagent", "logagent.vcproj", "{0FC3537B-16FC-41CC-9C85-3B3956F38FCA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libdiamond", "libdiamond.vcproj", "{42ABF16C-D3A6-4C4A-8338-CF47CB907C05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21DEF436-4BBC-4ABE-8910-B634593FF08F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{21DEF436-4BBC-4ABE-8910-B634593FF08F}.Debug|Win32.Build.0 = Debug|Win32
+		{21DEF436-4BBC-4ABE-8910-B634593FF08F}.Release|Win32.ActiveCfg = Release|Win32
+		{21DEF436-4BBC-4ABE-8910-B634593FF08F}.Release|Win32.Build.0 = Release|Win32
+		{DB42E07F-51C7-458A-9580-561455DC529F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB42E07F-51C7-458A-9580-561455DC529F}.Debug|Win32.Build.0 = Debug|Win32
+		{DB42E07F-51C7-458A-9580-561455DC529F}.Release|Win32.ActiveCfg = Release|Win32
+		{DB42E07F-51C7-458A-9580-561455DC529F}.Release|Win32.Build.0 = Release|Win32
+		{0FC3537B-16FC-41CC-9C85-3B3956F38FCA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0FC3537B-16FC-41CC-9C85-3B3956F38FCA}.Debug|Win32.Build.0 = Debug|Win32
+		{0FC3537B-16FC-41CC-9C85-3B3956F38FCA}.Release|Win32.ActiveCfg = Release|Win32
+		{0FC3537B-16FC-41CC-9C85-3B3956F38FCA}.Release|Win32.Build.0 = Release|Win32
+		{42ABF16C-D3A6-4C4A-8338-CF47CB907C05}.Debug|Win32.ActiveCfg = Debug|Win32
+		{42ABF16C-D3A6-4C4A-8338-CF47CB907C05}.Debug|Win32.Build.0 = Debug|Win32
+		{42ABF16C-D3A6-4C4A-8338-CF47CB907C05}.Release|Win32.ActiveCfg = Release|Win32
+		{42ABF16C-D3A6-4C4A-8338-CF47CB907C05}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
