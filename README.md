@@ -1,20 +1,20 @@
-## MetaqÊÇÊ²Ã´
+## Metaqæ˜¯ä»€ä¹ˆ
 
-MetaqÊÇÒ»¿î·Ö²¼Ê½£¬¸ßĞÔÄÜ£¬¸ß¿É¿¿µÄÏûÏ¢ÖĞ¼ä¼ş£¬Ö§³ÖÑÏ¸ñµÄÏûÏ¢Ë³Ğò£¬´óÁ¿µÄÏûÏ¢¶Ñ»ıµÈ´óĞÍ»¥ÁªÍø·Ö²¼Ê½Ó¦ÓÃÌØĞÔ£¬ÔÚÌÔ±¦¼°°¢Àï°Í°Í×Ó¹«Ë¾±»¹ã·ºÓ¦ÓÃÓÚÒì²½½âñî£¬Êı¾İÔ´Í¬²½£¬ÊµÊ±¼ÆËãµÈÁìÓò£¬Ã¿Ìì´¦Àí250ÒÚ+ÌõÏûÏ¢¡£
+Metaqæ˜¯ä¸€æ¬¾åˆ†å¸ƒå¼ï¼Œé«˜æ€§èƒ½ï¼Œé«˜å¯é çš„æ¶ˆæ¯ä¸­é—´ä»¶ï¼Œæ”¯æŒä¸¥æ ¼çš„æ¶ˆæ¯é¡ºåºï¼Œå¤§é‡çš„æ¶ˆæ¯å †ç§¯ç­‰å¤§å‹äº’è”ç½‘åˆ†å¸ƒå¼åº”ç”¨ç‰¹æ€§ï¼Œåœ¨æ·˜å®åŠé˜¿é‡Œå·´å·´å­å…¬å¸è¢«å¹¿æ³›åº”ç”¨äºå¼‚æ­¥è§£è€¦ï¼Œæ•°æ®æºåŒæ­¥ï¼Œå®æ—¶è®¡ç®—ç­‰é¢†åŸŸï¼Œæ¯å¤©å¤„ç†250äº¿+æ¡æ¶ˆæ¯ã€‚
 
-## ÈçºÎ¿ªÊ¼
+## å¦‚ä½•å¼€å§‹
 
-* [ÇëÏÈÔÄ¶ÁÎÄµµ](https://github.com/taobao/metaq/wiki)
-* [ÏÂÔØ°²×°°ü](https://github.com/taobao/metaq/wiki/download)
-* [³¢ÊÔÔËĞĞExample](https://github.com/taobao/metaq/tree/master/metaq-example)
+* [è¯·å…ˆé˜…è¯»æ–‡æ¡£](https://github.com/taobao/metaq/wiki)
+* [ä¸‹è½½å®‰è£…åŒ…](https://github.com/taobao/metaq/wiki/download)
+* [å°è¯•è¿è¡ŒExample](https://github.com/taobao/metaq/tree/master/metaq-example)
 
-## ¿ªÔ´Ğ­Òé
+## å¼€æºåè®®
 
 [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
 Copyright By taobao.com
 
-## ÁªÏµÎÒÃÇ
-* [ÏòÎÒÃÇÌáĞèÇó£¬BUG»ò»ñµÃ¼¼ÊõÖ§³Ö](https://github.com/taobao/metaq/issues/new)
-* Í¨¹ıĞÂÀËÎ¢²©¹Ø×¢ÎÒÃÇ [@ÌÔ±¦Metaq](http://weibo.com/tbmetaq)
-* ¿ª·¢ÍÅ¶Ó³ÉÔ±£¬·Ö±ğÎª¹«Ë¾»¨ÃûÓëÕæÃû --- [ÊÄ¼Î(ÍõĞ¡Èğ)](https://github.com/vintagewang)  À¼Éú(Öì½Ü)  Æ½Íş(Â½Ñ§»Û)
-* MetaqÏîÄ¿·Ç³£»¶Ó­¸÷Î»µÄ²ÎÓë£¬Äã¿ÉÒÔÍ¨¹ıGithub²ÎÓëµ½²úÆ·µÄ¹æ»®¡¢¿ª·¢¡¢²âÊÔµÈ»·½Ú£¬¸ĞĞËÈ¤Çë·¢ÓÊ¼şÖÁ shijia.wxr@taobao.com
+## è”ç³»æˆ‘ä»¬
+* [å‘æˆ‘ä»¬æéœ€æ±‚ï¼ŒBUGæˆ–è·å¾—æŠ€æœ¯æ”¯æŒ](https://github.com/taobao/metaq/issues/new)
+* é€šè¿‡æ–°æµªå¾®åšå…³æ³¨æˆ‘ä»¬ [@æ·˜å®Metaq](http://weibo.com/tbmetaq)
+* å¼€å‘å›¢é˜Ÿæˆå‘˜ï¼Œåˆ†åˆ«ä¸ºå…¬å¸èŠ±åä¸çœŸå --- [èª“å˜‰(ç‹å°ç‘)](https://github.com/vintagewang) [æ–‡è¯(é‚±å¿—å†›)](https://github.com/taobao-wenzhao)  å…°ç”Ÿ(æœ±æ°)  å¹³å¨(é™†å­¦æ…§)
+* Metaqé¡¹ç›®éå¸¸æ¬¢è¿å„ä½çš„å‚ä¸ï¼Œä½ å¯ä»¥é€šè¿‡Githubå‚ä¸åˆ°äº§å“çš„è§„åˆ’ã€å¼€å‘ã€æµ‹è¯•ç­‰ç¯èŠ‚ï¼Œæ„Ÿå…´è¶£è¯·å‘é‚®ä»¶è‡³ shijia.wxr@taobao.com
