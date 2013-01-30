@@ -16,6 +16,6 @@ Copyright By taobao.com
 ## 联系我们
 * [向我们提需求，BUG或获得技术支持](https://github.com/taobao/metaq/issues/new)
 * 通过新浪微博关注我们 [@淘宝Metaq](http://weibo.com/tbmetaq)
-* 开发团队成员: [誓嘉(王小瑞)](https://github.com/vintagewang) [文诏(邱志军)](https://github.com/taobao-wenzhao)  兰生(朱杰)  平威(陆学慧)
+* 开发团队成员: [誓嘉(王小瑞)](https://github.com/vintagewang) [文诏(邱志军)](https://github.com/taobao-wenzhao)  [兰生(朱杰)](https://github.com/allenzhu)  平威(陆学慧)
 * 测试团队成员: 石舟(王玥)
 * Metaq项目非常欢迎各位的参与，你可以通过Github参与到产品的规划、开发、测试等环节，感兴趣请发邮件至 shijia.wxr@taobao.com
