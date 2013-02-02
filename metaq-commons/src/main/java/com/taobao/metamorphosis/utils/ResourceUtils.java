@@ -14,9 +14,8 @@ import java.util.Properties;
  * @author boyan
  * @date 2010-5-4
  */
-public class ResourceUtils extends Object {
+public class ResourceUtils {
 
-    /** */
     /**
      * Returns the URL of the resource on the classpath
      * 
@@ -42,7 +41,6 @@ public class ResourceUtils extends Object {
     }
 
 
-    /** */
     /**
      * Returns the URL of the resource on the classpath
      * 
@@ -69,7 +67,6 @@ public class ResourceUtils extends Object {
     }
 
 
-    /** */
     /**
      * Returns a resource on the classpath as a Stream object
      * 
@@ -95,7 +92,6 @@ public class ResourceUtils extends Object {
     }
 
 
-    /** */
     /**
      * Returns a resource on the classpath as a Stream object
      * 
@@ -122,7 +118,6 @@ public class ResourceUtils extends Object {
     }
 
 
-    /** */
     /**
      * Returns a resource on the classpath as a Properties object
      * 
@@ -134,9 +129,8 @@ public class ResourceUtils extends Object {
      */
     public static Properties getResourceAsProperties(String resource) throws IOException {
         Properties props = new Properties();
-        InputStream in = null;
         String propfile = resource;
-        in = getResourceAsStream(propfile);
+        InputStream in = getResourceAsStream(propfile);
         try {
             props.load(in);
         }
@@ -153,7 +147,6 @@ public class ResourceUtils extends Object {
     }
 
 
-    /** */
     /**
      * Returns a resource on the classpath as a Properties object
      * 
@@ -167,9 +160,8 @@ public class ResourceUtils extends Object {
      */
     public static Properties getResourceAsProperties(ClassLoader loader, String resource) throws IOException {
         Properties props = new Properties();
-        InputStream in = null;
         String propfile = resource;
-        in = getResourceAsStream(loader, propfile);
+        InputStream in = getResourceAsStream(loader, propfile);
         try {
             props.load(in);
         }
@@ -186,7 +178,6 @@ public class ResourceUtils extends Object {
     }
 
 
-    /** */
     /**
      * Returns a resource on the classpath as a Reader object
      * 
@@ -201,7 +192,6 @@ public class ResourceUtils extends Object {
     }
 
 
-    /** */
     /**
      * Returns a resource on the classpath as a Reader object
      * 
@@ -218,7 +208,6 @@ public class ResourceUtils extends Object {
     }
 
 
-    /** */
     /**
      * Returns a resource on the classpath as a File object
      * 
@@ -233,7 +222,6 @@ public class ResourceUtils extends Object {
     }
 
 
-    /** */
     /**
      * Returns a resource on the classpath as a File object
      * 
