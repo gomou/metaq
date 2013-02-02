@@ -137,8 +137,18 @@ public class ResourceUtils extends Object {
         InputStream in = null;
         String propfile = resource;
         in = getResourceAsStream(propfile);
-        props.load(in);
-        in.close();
+        try {
+            props.load(in);
+        }
+        finally {
+            try {
+                in.close();
+            }
+            catch (IOException ignore) {
+                // we have finished to use this InputStream, so just ignore it
+                ignore.printStackTrace();
+            }
+        }
         return props;
     }
 
@@ -160,8 +170,18 @@ public class ResourceUtils extends Object {
         InputStream in = null;
         String propfile = resource;
         in = getResourceAsStream(loader, propfile);
-        props.load(in);
-        in.close();
+        try {
+            props.load(in);
+        }
+        finally {
+            try {
+                in.close();
+            }
+            catch (IOException ignore) {
+                // we have finished to use this InputStream, so just ignore it
+                ignore.printStackTrace();
+            }
+        }
         return props;
     }
 
