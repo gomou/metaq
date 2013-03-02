@@ -14,9 +14,8 @@ import java.util.Properties;
  * @author boyan
  * @date 2010-5-4
  */
-public class ResourceUtils extends Object {
+public class ResourceUtils {
 
-    /** */
     /**
      * Returns the URL of the resource on the classpath
      * 
@@ -42,7 +41,6 @@ public class ResourceUtils extends Object {
     }
 
 
-    /** */
     /**
      * Returns the URL of the resource on the classpath
      * 
@@ -69,7 +67,6 @@ public class ResourceUtils extends Object {
     }
 
 
-    /** */
     /**
      * Returns a resource on the classpath as a Stream object
      * 
@@ -95,7 +92,6 @@ public class ResourceUtils extends Object {
     }
 
 
-    /** */
     /**
      * Returns a resource on the classpath as a Stream object
      * 
@@ -122,7 +118,6 @@ public class ResourceUtils extends Object {
     }
 
 
-    /** */
     /**
      * Returns a resource on the classpath as a Properties object
      * 
@@ -134,16 +129,24 @@ public class ResourceUtils extends Object {
      */
     public static Properties getResourceAsProperties(String resource) throws IOException {
         Properties props = new Properties();
-        InputStream in = null;
         String propfile = resource;
-        in = getResourceAsStream(propfile);
-        props.load(in);
-        in.close();
+        InputStream in = getResourceAsStream(propfile);
+        try {
+            props.load(in);
+        }
+        finally {
+            try {
+                in.close();
+            }
+            catch (IOException ignore) {
+                // we have finished to use this InputStream, so just ignore it
+                ignore.printStackTrace();
+            }
+        }
         return props;
     }
 
 
-    /** */
     /**
      * Returns a resource on the classpath as a Properties object
      * 
@@ -157,16 +160,24 @@ public class ResourceUtils extends Object {
      */
     public static Properties getResourceAsProperties(ClassLoader loader, String resource) throws IOException {
         Properties props = new Properties();
-        InputStream in = null;
         String propfile = resource;
-        in = getResourceAsStream(loader, propfile);
-        props.load(in);
-        in.close();
+        InputStream in = getResourceAsStream(loader, propfile);
+        try {
+            props.load(in);
+        }
+        finally {
+            try {
+                in.close();
+            }
+            catch (IOException ignore) {
+                // we have finished to use this InputStream, so just ignore it
+                ignore.printStackTrace();
+            }
+        }
         return props;
     }
 
 
-    /** */
     /**
      * Returns a resource on the classpath as a Reader object
      * 
@@ -181,7 +192,6 @@ public class ResourceUtils extends Object {
     }
 
 
-    /** */
     /**
      * Returns a resource on the classpath as a Reader object
      * 
@@ -198,7 +208,6 @@ public class ResourceUtils extends Object {
     }
 
 
-    /** */
     /**
      * Returns a resource on the classpath as a File object
      * 
@@ -213,7 +222,6 @@ public class ResourceUtils extends Object {
     }
 
 
-    /** */
     /**
      * Returns a resource on the classpath as a File object
      * 

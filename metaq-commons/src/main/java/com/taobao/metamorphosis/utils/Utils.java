@@ -31,11 +31,20 @@ public class Utils {
             in = new FileInputStream(file);
         }
 
-        Reader reader = new InputStreamReader(in, encoding);
         Properties props = new Properties();
-        props.load(reader);
-        in.close();
-        reader.close();
+        try {
+            Reader reader = new InputStreamReader(in, encoding);
+            props.load(reader);
+        }
+        finally {
+            try {
+                in.close();
+            }
+            catch (IOException ignore) {
+                // we have finished to use this InputStream, so just ignore it
+                ignore.printStackTrace();
+            }
+        }
 
         return props;
 
