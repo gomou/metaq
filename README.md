@@ -4,9 +4,9 @@ Metaq是一款分布式，高性能，高可靠的消息中间件，支持严格
 
 ## 如何开始
 
-* [请先阅读文档](https://github.com/taobao/metaq/wiki)
-* [下载安装包](https://github.com/taobao/metaq/wiki/download)
-* [尝试运行Example](https://github.com/taobao/metaq/tree/master/metaq-example)
+* [请先阅读文档](https://github.com/alibaba/metaq/wiki)
+* [下载安装包](https://github.com/alibaba/metaq/wiki/download)
+* [尝试运行Example](https://github.com/alibaba/metaq/tree/master/metaq-example)
 
 ## 开源协议
 
@@ -14,7 +14,7 @@ Metaq是一款分布式，高性能，高可靠的消息中间件，支持严格
 Copyright By taobao.com
 
 ## 联系我们
-* [向我们提需求，BUG或获得技术支持](https://github.com/taobao/metaq/issues/new)
+* [向我们提需求，BUG或获得技术支持](https://github.com/alibaba/metaq/issues/new)
 * 通过新浪微博关注我们 [@淘宝Metaq](http://weibo.com/tbmetaq)
 * 开发团队成员: [誓嘉(王小瑞)](https://github.com/vintagewang) [文诏(邱志军)](https://github.com/taobao-wenzhao)  [兰生(朱杰)](https://github.com/allenzhu)  平威(陆学慧)
 * 测试团队成员: 石舟(王玥)
